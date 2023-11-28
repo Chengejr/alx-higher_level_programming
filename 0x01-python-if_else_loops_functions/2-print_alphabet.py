@@ -5,4 +5,3 @@ for i in range(ord('a'), ord('z') + 1):
     alphabet += "{:c}".format(i)
 
 print(alphabet, end="")
-

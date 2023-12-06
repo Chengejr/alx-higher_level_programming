@@ -4,5 +4,6 @@ def uniq_add(my_list=[]):
 
     for element in my_list:
         unique_set.add(element)
-        result = sum(unique_set)
-        return result
+
+    result = sum(unique_set)
+    return result
